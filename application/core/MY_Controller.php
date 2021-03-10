@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 date_default_timezone_set("Europe/London");
 
-require_once APPPATH . 'libraries/PHPMailer-master/PHPMailerAutoload.php';
+@require_once APPPATH . 'libraries/PHPMailer-master/PHPMailerAutoload.php';
 
 class MY_Controller extends CI_Controller {
     
